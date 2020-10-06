@@ -25,6 +25,11 @@ body {
   
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 p, .paragraph {
   font-weight: 400;
   color: #000000;
