@@ -25,6 +25,11 @@ body {
   
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 p, .paragraph {
   font-weight: 400;
   color: #000000;
@@ -268,7 +273,7 @@ a:hover {
 }
 
 .bg-primaryy {
-  background: url("/images/SFV2.jpg")
+  background: url("../../../../images/SFV2.jpg");
 }
 
 .font-tertiaryy {
@@ -642,7 +647,7 @@ textarea.form-control {
     width: fit-content;
     position: absolute;
     color: transparent;
-    border-radius: 30px;
+    
   }
 }
 
