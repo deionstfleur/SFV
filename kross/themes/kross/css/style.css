@@ -582,6 +582,8 @@ a:hover {
   border: 0;
 }
 
+
+
 /* /slick slider */
 /* form */
 .form-control {
@@ -661,6 +663,7 @@ textarea.form-control {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
+ 
 }
 
 .hero-area {
@@ -777,7 +780,9 @@ textarea.form-control {
     /* align-items: center; */
     text-align: center;
     font-size: 20px;
+
   }
+
 
 }
 
