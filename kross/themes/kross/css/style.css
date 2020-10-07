@@ -27,7 +27,7 @@ body {
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 p, .paragraph {
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h1 {
   font-size: 130px;
   margin-top: -90px;
-  color: rgb(218, 214, 0);
+  color: rgb(255, 231, 14);
 }
 
 .yainfo {
@@ -64,6 +64,8 @@ h1, .h1 {
     font-size: 65px;
   }
 }
+
+
 
 h2, .h2 {
   font-size: 60px;
@@ -287,8 +289,10 @@ a:hover {
   
 }
 .bg-primary2 {
-  background: rgb(241, 197, 0);
+  background: rgb(0, 0, 0);
 }
+
+
 
 
 .bg-primary3 {
@@ -681,6 +685,7 @@ textarea.form-control {
     padding: 250px 0 150px;
     overflow: hidden;
     background-size: cover;
+    background: url('/images/sfvl1.5.jpg');
   }
 }
 
@@ -785,8 +790,10 @@ textarea.form-control {
     /* align-items: center; */
     text-align: center;
     font-size: 20px;
-
+    margin-top: 120px;
   }
+
+
 
 
 }
