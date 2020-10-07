@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h1 {
   font-size: 130px;
   margin-top: -90px;
-  color: rgb(255, 231, 14);
+  color: rgb(237, 177, 62);
 }
 
 .yainfo {
@@ -510,7 +510,8 @@ a:hover {
 }
 
 .mb-80 {
-  margin-bottom: 80px !important;
+  margin-bottom: 10px !important;
+  font-size: 45px;
 }
 
 .mb-90 {
@@ -698,7 +699,7 @@ textarea.form-control {
 
 @media (max-device-width: 991px) {
   .body {
-    width: max-content;
+    width: 100%;
     overflow-x: hidden; 
   }
 }
