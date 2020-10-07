@@ -1,16 +1,24 @@
 <?php
-if(isset( $_POST['name']))
+$to = "saintfamilyvisuals@gmail.com"; 
 $name = $_POST['name'];
-if(isset( $_POST['email']))
 $email = $_POST['email'];
-if(isset( $_POST['message']))
-$message = $_POST['message'];
-if(isset( $_POST['subject']))
-$subject = $_POST['subject'];
+$text = $_POST['text'];
 
-$content="From: $name \n Email: $email \n Message: $message";
-$recipient = "saintfamilyvisuals.@gmail.com";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $content, $mailheader) or die("Error!");
-echo "Email sent!";
+$headers = "From: " .  $email;
+$headers .= "MIME-Version: 1.0\r\n";
+$headers .= "Content-type: text/html; charset=UTF-8" . "\r\n";
+
+
+if(isset($_POST['submit'])){
+    $subject  = "New email from your website";
+
+    $message   = "Name: " . $name;
+    $message  .= "Email: " . $email;
+    $message  .= "Message: " . $text;
+
+    mail($to,$subject,$message,$headers);   
+    echo "Your mail has been sent.";
+}
+
+
 ?>
