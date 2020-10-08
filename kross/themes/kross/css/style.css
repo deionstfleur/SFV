@@ -419,6 +419,10 @@ a:hover {
    width: 100%;
    justify-content: center;
  }
+
+ 
+ 
+ 
  .column {
   float: left;
   width: 33.33%;
@@ -647,7 +651,7 @@ textarea.form-control {
 
 @media (max-width: 991px) {
   .navigation {
-    padding: 20px;
+    padding: 23px;
     background: #000000;
     width: fit-content;
     position: absolute;
