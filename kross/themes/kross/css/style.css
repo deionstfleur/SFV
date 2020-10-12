@@ -407,6 +407,11 @@ a:hover {
 
 }
 
+.col-md-6 img {
+  border-radius: 900px;
+
+}
+
 
 
  .bg-primary h1 {
@@ -785,7 +790,8 @@ textarea.form-control {
 }
 
 .front-text  {
-  visibility: hidden;
+  color: #fff;
+  z-index: 10;
 }
 
 @media (max-width:767px) {
