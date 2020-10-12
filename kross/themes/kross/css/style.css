@@ -22,12 +22,13 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c;
+  position: relative;
   
 }
 
 html, body {
-    max-width: 100%;
-    /* overflow-x: hidden; */
+  
+    overflow-x: hidden;
 }
 
 p, .paragraph {
@@ -407,7 +408,7 @@ a:hover {
 
 }
 
-.col-md-6 img {
+.img-fluid {
   border-radius: 900px;
 
 }
