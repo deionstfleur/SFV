@@ -83,6 +83,11 @@ h3, .h3 {
   font-family: 'Alegreya SC', serif;
 }
 
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+}
+
 h4, .h4 {
   font-size: 22px;
 }
