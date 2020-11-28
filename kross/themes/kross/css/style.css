@@ -23,6 +23,7 @@ body {
   font-size: 15px;
   color: #4c4c4c;
   position: relative;
+<<<<<<< HEAD
 
 
   
@@ -32,6 +33,9 @@ html, body {
 
   
     overflow-x: hidden;
+=======
+  
+>>>>>>> b5ef9c308af9af17b7952a7908c699c9093c7fdb
 }
 
 html, body {
